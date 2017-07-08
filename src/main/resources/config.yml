@@ -1,0 +1,14 @@
+#OreNanny Config
+
+#The maximum y-level at which ores will be tracked (above this, ores will be ignored)
+max-height: 50
+
+#Ores that will be monitored - set to true/false to enable/disable
+track-ores:
+  DIAMOND_ORE: true
+  GOLD_ORE: true
+  EMERALD_ORE: true
+  REDSTONE_ORE: true
+  IRON_ORE: true
+  COAL_ORE: true
+  LAPIS_ORE: true

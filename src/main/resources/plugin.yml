@@ -1,0 +1,22 @@
+name: ${project.name}
+main: me.Fupery.OreNanny.OreNanny
+version: ${project.version}
+description: ${project.description}
+depends: []
+author: Fupery
+
+commands:
+  orenanny:
+      usage:  |
+        <command> top : List players ranked by highest xray probability
+        <command> info <player> : View a player's statistics
+        <command> clear <player> : Clear a player's statistics
+        <command> \[help\] : View available commands
+
+permissions:
+  orenanny.query:
+    description: Allows players to use commands
+    default: op
+  orenanny.bypass:
+    description: Ores broken by players with this perission are ignored
+    default: op

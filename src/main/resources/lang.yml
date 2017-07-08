@@ -1,0 +1,15 @@
+english:
+  NO_PERMISSION: "You do not have permission to do this."
+  NO_PLAYERS_FOUND: "No player records with significant X-Ray probabilities could be found."
+  PLAYER_NOT_FOUND: "No records could be found for '%s'!"
+  INVALID_MATERIAL: "'%s' in config is not a valid material."
+  BLOCKS_FOR: "§5Showing data for §d"
+  BLOCKS_BROKEN: "§5Total blocks broken: §d "
+  XRAY_CHANCE: "§5§lX-Ray chance: §a"
+  COMMAND_HELP: "Command '%s' not found - type '/orenanny help' for a full list of commands."
+  HELP:
+    - "§7-------------------§5§l[§d§lOreNanny Help§5§l]§7-------------------"
+    - "§d• §7/orenanny top              §d➯ §rRank players by X-Ray probability"
+    - "§d• §7/orenanny info <player>    §d➯ §rView a player's statistics"
+    - "§d• §7/orenanny clear <player>    §d➯ §rClear a player's statistics"
+    - "§d• §7/orenanny help             §d➯ §rDisplay this help menu"
